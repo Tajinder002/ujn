@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpai",
+  "version": "${version}",
+  "name": "PvP Learner AI",
+  "description": "An AI that plays PvP for you, learns from its deaths and from how other players move and aim.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.pvpai.PvpAiClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
